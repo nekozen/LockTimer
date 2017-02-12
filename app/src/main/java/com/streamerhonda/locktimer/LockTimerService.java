@@ -21,6 +21,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.IBinder;
 import android.os.SystemClock;
+import android.support.annotation.Nullable;
 import android.util.Log;
 
 public class LockTimerService extends Service {
@@ -64,6 +65,12 @@ public class LockTimerService extends Service {
         this.unregisterReceiver(mScreenOffReceiver);
         mTimeLeft = -1;
         super.onDestroy();
+    }
+
+    @Nullable
+    @Override
+    public IBinder onBind(Intent intent) {
+        return null;
     }
 
     @Override
