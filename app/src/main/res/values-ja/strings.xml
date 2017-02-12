@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">画面ロックタイマー</string>
+    <string name="button_min10">10分</string>
+    <string name="button_min15">15分</string>
+    <string name="button_min20">20分</string>
+    <string name="button_min25">25分</string>
+    <string name="button_min30">30分</string>
+    <string name="button_min45">45分</string>
+    <string name="button_min5">5分</string>
+    <string name="button_min60">60分</string>
+    <string name="button_start">開始</string>
+    <string name="min_post"> 分 (1～60)</string>
+    <string name="min_pre">画面ロックまで後 </string>
+    <string name="notification_title">時間が経過すると画面をロックします</string>
+    <string name="setting_guide">画面をロックするまでの時間を選択し、「開始」を押してください。</string>
+    <string name="notification_text_head">予定時刻</string>
+    <string name="notification_alarm2_title">画面ロック 1分前</string>
+    <string name="notification_alarm1_title">画面ロック 5分前です</string>
+    <string name="alert_invalid_period">1～60分までの時間を設定してください。</string>
+</resources>

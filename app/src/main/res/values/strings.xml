@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LockTimer</string>
+    <string name="button_start">Start</string>
+    <string name="setting_guide">Select the period before locking the screen and press \"Start\".</string>
+    <string name="min_pre">The screen will be locked in </string>
+    <string name="min_post"> min (1-60)</string>
+    <string name="button_min5">5min</string>
+    <string name="button_min10">10min</string>
+    <string name="button_min15">15min</string>
+    <string name="button_min20">20min</string>
+    <string name="button_min25">25min</string>
+    <string name="button_min30">30min</string>
+    <string name="button_min45">45min</string>
+    <string name="button_min60">60min</string>
+    <string name="notification_title">The screen will be locked</string>
+    <string name="notification_text_head">Schedule</string>
+    <string name="notification_alarm1_title">5 min. before lock</string>
+    <string name="notification_alarm2_title">1 min. before lock</string>
+    <string name="alert_invalid_period">Set the period from 1 to 60 min.</string>
+
+</resources>

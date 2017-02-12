@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.streamerhonda.locktimer.MainActivity">
+
+    <TextView
+        android:id="@+id/TextViewSettingGuide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:singleLine="false"
+        android:text="@string/setting_guide" />
+
+    <Button
+        android:id="@+id/ButtonStart"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/TextViewSettingGuide"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="42dp"
+        android:background="@drawable/button_big"
+        android:text="@string/button_start"
+        android:textSize="60dp" />
+
+    <LinearLayout
+        android:id="@+id/AreaButtons1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ButtonStart"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonMin5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button_min5" />
+
+        <Button
+            android:id="@+id/ButtonMin10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button_min10" />
+
+        <Button
+            android:id="@+id/ButtonMin15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button_min15" />
+
+        <Button
+            android:id="@+id/ButtonMin20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button_min20" />
+
+        <Button
+            android:id="@+id/ButtonMin25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button_min25" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AreaButtons2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AreaButtons1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ButtonMin30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button_min30" />
+
+        <Button
+            android:id="@+id/ButtonMin45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button_min45" />
+
+        <Button
+            android:id="@+id/ButtonMin60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/button_min60" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AreaMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AreaButtons2"
+        android:layout_marginTop="40dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TextViewMinPre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/min_pre" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:text="30" />
+
+        <TextView
+            android:id="@+id/TextViewMinPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/min_post" />
+    </LinearLayout>
+
+</RelativeLayout>
