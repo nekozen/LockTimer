@@ -105,7 +105,7 @@ public class LockTimerService extends Service {
                                         + calendar.get(Calendar.HOUR_OF_DAY)
                                         + ":" + calendar.get(Calendar.MINUTE))
                         .setContentIntent(pendingintent_activity)
-                        .setSmallIcon(R.drawable.ic_launcher)
+                        .setSmallIcon(R.drawable.notification)
                         .setAutoCancel(true).build();
                 startForeground(R.drawable.ic_launcher, notification);
                 setAlarm(period);
@@ -140,7 +140,7 @@ public class LockTimerService extends Service {
                         .setContentTitle(this.getText(R.string.app_name))
                         .setContentText(
                                 this.getText(R.string.notification_alarm1_title))
-                        .setSmallIcon(R.drawable.ic_launcher)
+                        .setSmallIcon(R.drawable.notification)
                         .setAutoCancel(true).setVibrate(new long[]{500})
                         .setPriority(Notification.PRIORITY_HIGH).build();
                 NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
@@ -158,7 +158,7 @@ public class LockTimerService extends Service {
                         .setContentTitle(this.getText(R.string.app_name))
                         .setContentText(
                                 this.getText(R.string.notification_alarm2_title))
-                        .setSmallIcon(R.drawable.ic_launcher)
+                        .setSmallIcon(R.drawable.notification)
                         .setAutoCancel(true).setVibrate(new long[]{500})
                         .setPriority(Notification.PRIORITY_HIGH).build();
                 notificationManager
